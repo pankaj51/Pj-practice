@@ -39,3 +39,6 @@ yarn-error.log*
 .env
 /dist
 
+/src/forgot_password.py
+/forgot_password.robot
+
