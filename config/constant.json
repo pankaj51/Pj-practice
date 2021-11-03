@@ -1,0 +1,67 @@
+{
+  "error_message": {
+    "login": {
+      "invalid_username": "Username does not exist or has been disabled.",
+      "mismatch_password_fields_error_message": "Passwords must match",
+      "length_compliance_message_password_field": "Password must be atleast 8 characters",
+      "length_compliance_message_code_field": "Minimum 6 characters required",
+      "invalid_code_error_message": "Invalid code provided, please request a code again.",
+      "error_message_forogt_password_blank_password": "Please enter your password",
+      "error_message_forogt_password_blank_code": "Code is required"
+    },
+    "user":{
+      "ssn_already_exists_message": "This social security number has already been taken.",
+      "unique_email_message": "This field must be unique.",
+      "invalid_ssn_message": "Enter a valid SSN",
+      "invalid_email_message": "This is not a valid email format.",
+      "expected_validation_message" : [
+        "Select an option",
+        "First name is required",
+        "Last name is required",
+        "Select an option",
+        "Date of Birth is required",
+        "This is a required field",
+        "Email is required",
+        "Select an option"
+      ]
+    }
+  },
+"list":{
+  "expected_user_title_drop_down" : [
+      "Mx.",
+      "Mr.",
+      "Mrs.",
+      "Miss.",
+      "Ms.",
+      "Mstr.",
+      "Dr.",
+      "Prof.",
+      "Rev.",
+      "Sir",
+      "Sister"
+  ],
+  "expected_user_gender_drop_down" : [
+      "Identifies as Male",
+      "Identifies as Female",
+      "Female-to-Male",
+      "Male-to-Female",
+      "Genderqueer",
+      "Other",
+      "Choose not to disclose"
+    ],
+    "note_template": {
+      "template_name_blank": "This is a required field",
+      "template_name_unique": "This field must be unique.",
+      "no_data_text_note_template": "No Data"
+    },
+    "patient": {
+      "no_data_text_patient": "No Data"
+    }
+  },
+  "note_template": {
+    "records_per_page_value": ["10", "20", "50", "100"]
+  },
+  "patient": {
+    "records_per_page_value": ["10", "20", "50", "100"]
+  }
+}

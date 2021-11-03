@@ -1,0 +1,8 @@
+datasources:f9e5fd27920b92670fe21b37c705aa019e3bcfdb
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:3c61a931e7628558d7e213521daa02911ad4e2f0
+--suite Feature.Auth.Login
+--suite Feature.Note Template.List View Note Template
+--suite Feature.Note Template.Note Template
+--suite Feature.Auth.Forgot Password
