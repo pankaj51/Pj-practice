@@ -1,6 +1,6 @@
-allure-behave==2.9.41
-allure-pytest==2.8.40
-allure-python-commons==2.9.41
+# allure-behave==2.9.41
+# allure-pytest==2.8.40
+# allure-python-commons==2.9.41
 appdirs==1.4.4
 atomicwrites==1.4.0
 attrs==21.2.0
