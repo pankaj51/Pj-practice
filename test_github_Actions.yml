@@ -34,5 +34,5 @@ jobs:
       #       - uses: browser-actions/setup-chrome@latest
       #         with:
       #           chrome-verison: 94.0.4606.61
-      - run: robot .//feature//auth//forgot_password.robot
+      - run: robot .//feature//
       # run
