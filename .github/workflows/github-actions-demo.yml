@@ -21,7 +21,7 @@ jobs:
     runs-on: ${{matrix.os}}
     strategy:
       matrix:
-        os: ['windows-2022', 'ubuntu-latest', 'macos-11']
+        os: ['windows-2022']
     steps:
       - uses: actions/checkout@v2
 
