@@ -28,17 +28,17 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9.0-alpha - 3.9.0' # SemVer's version range syntax
-      - name: Run the test on windows
-        if: matrix.os == 'windows-2022'
+      - name: Run the test on windows and Ubuntu
+#         if: matrix.os == 'windows-2022'
         run: |
           pip install -r requirements.txt
           pip install robotframework
           pip install robotframework-seleniumlibrary
           pip install webdriver-manager
           robot .//feature//
-      - name: Run the test on Ubuntu 
-        if: matrix.os == 'ubuntu-latest'
-        run: |
-          pip install -r requirements.txt
-          pip install robotframework
+#       - name: Run the test on Ubuntu 
+#         if: matrix.os == 'ubuntu-latest'
+#         run: |
+#           pip install -r requirements.txt
+#           pip install robotframework
 
