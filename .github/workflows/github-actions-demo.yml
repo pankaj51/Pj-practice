@@ -21,7 +21,7 @@ jobs:
     runs-on: ${{matrix.os}}
     strategy:
       matrix:
-        os: ['windows-2022']
+        os: ['windows-2022', 'ubuntu-latest']
     steps:
       - uses: actions/checkout@v2
 
@@ -36,4 +36,9 @@ jobs:
           pip install robotframework-seleniumlibrary
           pip install webdriver-manager
           robot .//feature//
+      - name: Run the test on Ubuntu 
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          pip install -r requirements.txt
+          pip install robotframework
 
